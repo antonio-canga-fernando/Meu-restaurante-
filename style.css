@@ -1,0 +1,100 @@
+header{
+   padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+ul{
+    display: flex;
+     gap: 20px;
+     justify-content: right;
+     list-style: none;
+ 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 4px 2px white;
+    color: white;
+ 
+}
+.burger{
+    width: 500px;
+    height: 200px;
+    
+}
+img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    margin: auto;
+    
+    
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    box-shadow: 0 4px 2px rgba(0,0,0,0.1);
+   
+}
+.card1{
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px white;
+    justify-items: center;
+    color: white;
+    
+}
+.card2{
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 2px rgba(0,0,0,0.1);
+    justify-items: center;
+    color: white;
+     box-shadow: 0 2px 8px white;
+    
+}
+.card3{
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    justify-items: center;
+    color: white;
+     box-shadow: 0 2px 8px white;    
+}
+.titulo{
+    text-align: center;
+    color: white;
+}
+h2{
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: black;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(255, 145, 0);
+    border: none;
+    border-radius: 8px;
+}
+.btn:hover{
+    color: white;
+}
